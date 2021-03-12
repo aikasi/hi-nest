@@ -15,7 +15,7 @@ import { MoviesService } from './movies.service';
 @Controller('movies')
 export class MoviesController {
   constructor(private readonly moviesService: MoviesService) {}
-
+  //2
   @Get()
   getAll(): Movie[] {
     return this.moviesService.getAll();
