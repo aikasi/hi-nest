@@ -25,7 +25,7 @@ export class MoviesController {
   getOne(@Param('id') movieId: number): Movie {
     return this.moviesService.getOne(movieId);
   }
-
+  //5
   @Post()
   create(@Body() movieData: CreateMovieDto) {
     return this.moviesService.create(movieData);
