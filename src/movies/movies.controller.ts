@@ -30,7 +30,7 @@ export class MoviesController {
   create(@Body() movieData: CreateMovieDto) {
     return this.moviesService.create(movieData);
   }
-
+  //7
   @Delete(':id')
   remove(@Param('id') movieId: number) {
     return this.moviesService.deleteOne(movieId);
