@@ -40,5 +40,5 @@ export class MoviesController {
   path(@Param('id') movieId: number, @Body() updateData: UpdateMovieDto) {
     return this.moviesService.update(movieId, updateData);
   }
-  //1
+  //1 2
 }
